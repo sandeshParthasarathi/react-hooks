@@ -1,3 +1,11 @@
+.wrapper .container:nth-child(odd){
+  background: #e0ffff;
+}
+
+.wrapper .container:nth-child(even){
+  background:aliceblue;
+}
+
 .container{
   margin: 50px 20px 100px 20px;
   border-top: 2px solid #19659d;
@@ -55,5 +63,9 @@
 
 .action button{
   margin: 20px 20px 20px 0px;
+}
+
+.context-para{
+  padding: 50px;
 }
 

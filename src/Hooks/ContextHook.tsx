@@ -17,7 +17,7 @@ export default function ContextHook(): ReactElement {
   return (
     <div className="useState-example">
       <h2># Simple example of multiple useContext hook</h2>
-      <div style={{ background: theme.background, color: theme.foreground }}>
+      <div className="context-para" style={{ background: theme.background, color: theme.foreground }}>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Aperiam suscipit voluptatibus, doloremque, nulla quam beatae dolores,
         iste obcaecati dolorum pariatur eligendi veritatis inventore laudantium ea blanditiis.
