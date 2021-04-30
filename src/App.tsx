@@ -6,6 +6,7 @@ import MultipleReducers from './Hooks/MultipleReducers';
 import MultiUseState from './Hooks/MultiUseState';
 import ReducerComplexState from './Hooks/ReducerComplexState';
 import ReducerHook from './Hooks/ReducerHook';
+import ReducerWithContext from './Hooks/ReducerWithContext';
 import UseEffectExample from './Hooks/UseEffectExample';
 import UseStateExample from './Hooks/UseStateExample';
 
@@ -37,6 +38,9 @@ export default function App({}: Props): ReactElement {
       </div>
       <div className="container">
         <MultipleReducers />
+      </div>
+      <div className="container">
+        <ReducerWithContext />
       </div>
     </div>
 
